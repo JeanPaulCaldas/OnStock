@@ -80,6 +80,7 @@
     </Compile>
     <Compile Include="OnStock.Master.cs">
       <DependentUpon>OnStock.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="OnStock.Master.designer.cs">
       <DependentUpon>OnStock.Master</DependentUpon>
