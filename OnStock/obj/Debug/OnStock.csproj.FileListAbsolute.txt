@@ -1,0 +1,6 @@
+c:\Users\HERNAN\documents\visual studio 2013\Projects\OnStock\OnStock\bin\OnStock.dll.config
+c:\Users\HERNAN\documents\visual studio 2013\Projects\OnStock\OnStock\bin\OnStock.dll
+c:\Users\HERNAN\documents\visual studio 2013\Projects\OnStock\OnStock\bin\OnStock.pdb
+c:\Users\HERNAN\documents\visual studio 2013\Projects\OnStock\OnStock\obj\Debug\OnStock.csprojResolveAssemblyReference.cache
+c:\Users\HERNAN\documents\visual studio 2013\Projects\OnStock\OnStock\obj\Debug\OnStock.dll
+c:\Users\HERNAN\documents\visual studio 2013\Projects\OnStock\OnStock\obj\Debug\OnStock.pdb
