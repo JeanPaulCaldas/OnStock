@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\imgheader.png" />
     <Content Include="OnStock.Master" />
     <None Include="Properties\PublishProfiles\OnStock.pubxml" />
     <None Include="Web.Debug.config">
