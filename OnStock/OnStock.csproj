@@ -58,6 +58,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="images\imgheader.png" />
+    <Content Include="images\imgLogin.png" />
+    <Content Include="login.aspx" />
     <Content Include="OnStock.Master" />
     <None Include="Properties\PublishProfiles\OnStock.pubxml" />
     <None Include="Web.Debug.config">
@@ -69,6 +71,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
+    <Content Include="styles\estilo0.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -79,6 +82,13 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="OnStock.Master.cs">
       <DependentUpon>OnStock.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -88,6 +98,7 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
