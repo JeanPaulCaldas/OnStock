@@ -57,10 +57,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="categoria.aspx" />
     <Content Include="images\imgheader.png" />
     <Content Include="images\imgLogin.png" />
     <Content Include="login.aspx" />
     <Content Include="OnStock.Master" />
+    <Content Include="modal.Master" />
     <None Include="Properties\PublishProfiles\OnStock.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -75,6 +77,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="categoria.aspx.cs">
+      <DependentUpon>categoria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="categoria.aspx.designer.cs">
+      <DependentUpon>categoria.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -88,6 +97,13 @@
     </Compile>
     <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modal.Master.cs">
+      <DependentUpon>modal.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modal.Master.designer.cs">
+      <DependentUpon>modal.Master</DependentUpon>
     </Compile>
     <Compile Include="OnStock.Master.cs">
       <DependentUpon>OnStock.Master</DependentUpon>

@@ -1,0 +1,49 @@
+﻿html,body {
+            margin:0;
+            padding:0;
+            font-family: Arial;
+        }
+
+.centerLogin
+{
+    position: absolute;    
+    top:50%;
+    left:50%;    
+    width:400px;    
+    margin-left:-200px;    
+    height:300px;
+    margin-top:-150px;
+    border:1px solid #003333;
+    padding:5px;                       	
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,003333+100 */
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 30%, #003333 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #ffffff 30%,#003333 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #ffffff 30%,#003333 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#003333',GradientType=0 ); /* IE6-9 */  
+    
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;  
+}
+
+.btnLogin
+{
+    background-color:#003333;
+    height:30px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;  
+    border:1px outset #003333;
+    color:#ffffff;
+}
+
+.txtLogin
+{    
+    height:22px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;  
+    border:1px outset #003333;    
+}
